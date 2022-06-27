@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Lobster&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&family=Rubik+Moonrocks&display=swap');
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.whattsap{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transition: 0.4s;
+}
+.whattsap:hover{
+    transform: scale(1.2);
+}
+.main-body{
+background-image: url(./images/02264_thegardenofeden_1280x1024.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+.main-header {
+background-color: rgba(75, 188, 233, 0.541);
+height: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+position: sticky;
+top: 0;
+
+}
+.main-body .main-header img {
+    width: 100px;
+    height: 80px;
+    
+}
+.main-body .main-header ul {
+
+    display: flex;
+    gap: 12px;
+    font-family: 'Charis SIL', serif;
+       
+}
+
+.main-body .main-header ul li{
+
+    transition: 1s;
+}
+.main-body .main-header a {
+
+    text-decoration: none;
+}
+.main-body .main-header p {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(69, 90, 69);
+    text-shadow: 2px 2px #ffffff;
+}
+.main-body .main-header button{
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+    background-color: rgb(230, 187, 176);
+    
+}
+.article-main{
+    margin-top: 0px;
+
+    
+}
+.main-main {
+
+    /*background-color: aqua;*/
+    background-image: linear-gradient(rgba(155, 223, 65, 0.733), rgba(145, 229, 208, 0.801));
+    height: 400px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+.article-main .main-main p{
+
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+.curiosidades{
+
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 30px 20px;
+    
+}
+.card1{
+    background-color: aqua;
+    width: 300px;
+    height: 360px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    
+}
+.card1 img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 15px 15px 0 0 ;
+}
+.cards {
+
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.cards .card1 p{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.cards .card1 .clique{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.cards .card1 button{
+    width: fit-content;
+    padding: 5px;
+    background-color: rgb(241, 129, 64);
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.cards .card1 button:hover{
+
+    background-color: rgb(94, 221, 111);
+    transform: scale(1.05);
+}
+.video-main{
+    display: flex;
+    justify-content: center;
+}
+.video{
+   
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    border-radius: 20px;
+    background-color: rgba(187, 217, 243, 0.801);
+
+    
+}
+.video-main .video h2{
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+iframe {
+    box-shadow: 10px 10px;
+    transition: 0.8s;
+    
+    
+}
+iframe:hover{
+    transform: scale(1.05);
+}
+.formulario{
+    width: 300px;
+    height: fit-content;
+    background-color: rgba(246, 248, 250, 0.897);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 20px;
+
+}
+.formulario-principal{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.formulario1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.formulario2 {
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+
+}
+.botoesenviar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+   
+}
+
+.formulario1 .formulario section input {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: rgb(94, 199, 164);
+    border-radius: 10px;
+}
+
+.formulario1 .formulario section input:hover{
+    transform: scale(1.05);
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.formulario1 .formulario .formulario2 label{
+    font-family:'Raleway', sans-serif ;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+.formulario1 .formulario .formulario2 input {
+width: 250px;
+height: 20px;
+border: none;
+background-color: rgb(223, 223, 126);
+border-radius: 5px;
+
+}
+
+.formulario1 .formulario .formulario2 input::-webkit-input-placeholder{
+    color: blue;
+    padding-left: 10px;
+}
+
+.formulario1 h2{
+    font-family:'Raleway', sans-serif ;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.formulario label{
+    color: rgb(4, 6, 8);
+}
+.footer{
+    margin-top: 50px;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-main{
+    margin-left: 30px;
+}
+.footer .footer-main .sobre{
+    padding-top: 20px;
+}
+.footer .footer-main .sobre a{
+    font-family: 'Charis SIL', serif;
+    font-weight: 700;
+    padding-top: 20px;
+    text-decoration: none;
+
+}
+.footer .endereco{
+    font-family: 'Charis SIL', serif;
+    font-weight: 700;
+    padding-top: 20px;
+   
+}
+.footer .endereco1{
+    font-family: 'Charis SIL', serif;
+    font-weight: 700;
+    
+}
+.footer .telefone{
+    font-family: 'Charis SIL', serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.footer img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.redessociais{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+.footer-second{
+    height: 30px;
+    background-color: rgb(185, 211, 250);
+}
+.footer-second p{
+    font-family: 'Charis SIL', serif;
+    font-weight: 700;
+text-align: center;
+
+}
+.main-body .main-header ul li:hover{
+    transform: scale(1.1);
+    
+}
+.main-body .main-header ul li a:hover{
+
+    color: aliceblue;
+}
+@media (max-width: 425px){
+  
+    .main-header{
+        width: 100%;
+        height: fit-content;
+        
+    }
+        
+    .cards{
+        flex-wrap: wrap;
+    }
+    .article-main .main-main img{
+        max-width: 180px;
+        max-height: 180px;
+    }
+    .main-body .main-header ul{
+    gap: 3px;
+    font-size: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+    }
+    .main-body .main-header p{
+
+        font-size: 20px;
+        text-align: center;
+    }
+    .main-body .main-header img{
+        width: 80px;
+        height: 60px;
+    }
+    
+    .article-main .main-main p{
+
+        font-size: 10px;
+        line-height: 20px;
+
+    }
+    .curiosidades{
+        text-align: center;
+    }
+    .video{
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video h2{
+        text-align: center;
+    }
+    iframe{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formulario1 h2{
+        text-align: center;
+    }
+    .article-main .main-main {
+        height: 300px;
+    }
+    .redessociais{
+        gap: 10px;
+        margin-right: 10px;
+    }
+    .footer img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+      
+      
+}
